@@ -86,6 +86,7 @@ hr.solid {
 
 #logo {
   width: 30%;
+  min-width: 300px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -177,6 +178,7 @@ hr.solid {
   color: rgb(250, 245, 236);
   font-weight: bold;
   margin-bottom: 25px;
+  font-size: 25px;
 }
 #carousel-paragraph {
   color: rgb(250, 245, 236);
@@ -196,6 +198,7 @@ hr.solid {
   .show-images .new-image-item p {
     width: 80%;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -461,6 +464,55 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Cucci-page
+--------------------------------------------------------------*/
+.cucci-section {
+  position: relative;
+}
+
+#sfondo {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+.hero-cucci {
+  z-index: 1;
+  background-color: rgb(250, 245, 236);
+}
+.footer-cucci {
+  z-index: 1;
+}
+.cucci-wrapper{
+  background-color: rgb(250, 245, 236);
+}
+#bg-cucci {
+  height: 75vh;
+  width: 100%;
+}
+#cucci-title {
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+#cucci-paragraph {
+  line-height: 50px;
+}
+#cucci-container {
+  background-color: rgb(250, 245, 236);
+  padding: 5%;
+  text-align: left;
+  line-height: 35px;
+  color: rgb(35, 35, 35);
+}
+#logo-footer-cucci {
+  width: 20%;
+  min-width: 200px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -536,3 +588,4 @@ section {
 #footer .copyright {
   text-align: center;
 }
+
