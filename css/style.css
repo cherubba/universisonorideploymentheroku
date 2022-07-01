@@ -94,22 +94,44 @@ hr.solid {
 #video-uni {
   width: 100%;
 }
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
-#audio-control {
-  font-size: 5vh;
-  z-index: 999;
-  position: relative;
-  margin-top: -50px;
-  text-align: right;
-  margin-right: 3%;
-  color: rgb(250, 245, 236);
 }
+
+
+ #video-button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border-style: none;
+  border: 1px solid rgb(35, 35, 35);
+  background-color: rgb(250, 245, 236);
+  color: rgb(35, 35, 35);
+  font-size: 5vh;
+  box-shadow: 0px 0px 5px black;
+  z-index: 999;
+  margin-top: -35%;
+}
+
 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
+  
 }
+
+  @media (min-width: 700px) {
+  
+  #video-button{
+    margin-top: -32%;
+    width: 100px;
+    height: 100px;
+  }
+} 
 
 @media (max-width: 768px) {
   #hero h1 {
@@ -119,6 +141,7 @@ hr.solid {
   #hero h2 {
     line-height: 22px;
   }
+ 
 }
 /*--------------------------------------------------------------
 # Carousel
@@ -150,9 +173,8 @@ hr.solid {
 .show-images .new-image-item .img-carousel-item {
   width: 100%;
   margin: 0 auto;
-  object-fit: cover;
-  height: 600px;
-
+  object-fit:cover;
+  height: 300px;
 }
 
 .show-images .owl-dot {
@@ -198,7 +220,11 @@ hr.solid {
   .show-images .new-image-item p {
     width: 80%;
   }
+  .show-images .new-image-item .img-carousel-item {
+    
+    height: 600px;
   
+  }
 }
 
 /*--------------------------------------------------------------

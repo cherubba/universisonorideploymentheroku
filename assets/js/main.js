@@ -38,21 +38,25 @@
 
 })(jQuery);
 
-//Mute Video
 
-$('#audio-control').click(function() {
-  if( $("#video-uni").prop('muted') ) { 
-    $("#video-uni").prop('muted', false);
-    $("#volume-mute").hide();
-    $("#volume-full").show();
-  } else { 
-    $("#video-uni").prop('muted', true); 
-    $("#volume-full").hide();
-    $("#volume-mute").show();
-  } 
-});
+//Play Stop Video
 
-function init(){
-  $("#volume-full").hide();
-}
-init();
+const videoPlayer = document.getElementById('video-uni');
+const videoButton = document.getElementById('video-button');
+videoButton.addEventListener('click',()=>{
+  if (videoPlayer.paused) {
+    videoPlayer.play();
+    $("#video-button").hide();
+    
+  }
+
+})
+videoPlayer.addEventListener('click',()=>{
+  if (videoPlayer.paused){
+    videoPlayer.play();
+    $("#video-button").hide();
+  } else {
+    videoPlayer.pause();
+  $("#video-button").show();
+  }
+})
