@@ -491,13 +491,16 @@ section {
 /*--------------------------------------------------------------
 # Cucci-page
 --------------------------------------------------------------*/
+
+
+
 .cucci-section {
   position: relative;
 }
 
 #sfondo {
   position: fixed;
-  z-index: -1;
+  z-index: -2;
   top: 0;
   left: 0;
   width: 100%;
@@ -551,6 +554,11 @@ section {
   #bg-cucci{
     height: 50vh;
   }
+#sfondo {
+  position: absolute;
+  background-size:auto;
+}
+  
 }
 
 /*--------------------------------------------------------------
