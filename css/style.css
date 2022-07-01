@@ -501,6 +501,12 @@ section {
   top: 0;
   left: 0;
   width: 100%;
+  background: url("/img/provasfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  
 }
 .hero-cucci {
   z-index: 1;
@@ -513,8 +519,10 @@ section {
   background-color: rgb(250, 245, 236);
 }
 #bg-cucci {
-  height: 75vh;
+  height: 70vh;
   width: 100%;
+  
+  
 }
 #cucci-title {
   font-weight: bold;
@@ -537,6 +545,12 @@ section {
   min-width: 200px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+@media (max-width: 700px){
+  #bg-cucci{
+    height: 50vh;
+  }
 }
 
 /*--------------------------------------------------------------
