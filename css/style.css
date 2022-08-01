@@ -556,7 +556,7 @@ section {
   }
 #sfondo {
   position: absolute;
-  background-size:auto;
+  background-size:cover;
 }
   
 }
