@@ -442,6 +442,14 @@ section {
   display: none;
 }
 
+#spotify-logo{
+ max-width: 300px;
+display: flex;
+margin: auto;
+border-radius: 8px;
+box-shadow: 0 5px 10px rgba(35, 35, 35, 0.46);
+ 
+}
 
 /*--------------------------------------------------------------
 # Clients
