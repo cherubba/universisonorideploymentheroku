@@ -443,12 +443,12 @@ section {
 }
 
 #spotify-logo{
- max-width: 300px;
+width: 25%;
 display: flex;
 margin: auto;
 border-radius: 8px;
 box-shadow: 0 5px 10px rgba(35, 35, 35, 0.46);
- 
+margin-top: 50px; 
 }
 
 /*--------------------------------------------------------------
