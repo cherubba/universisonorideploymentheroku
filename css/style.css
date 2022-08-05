@@ -234,10 +234,12 @@ button{
   margin-bottom: 25px;
   font-size: 25px;
 }
-#carousel-paragraph {
-  color: rgb(250, 245, 236);
 
+.project-descr {
+
+  color: rgb(250, 245, 236);
 }
+
 #carousel-div {
   background-color: rgb(35, 35, 35);
   padding-bottom: 20px;
@@ -517,6 +519,11 @@ margin-top: 50px;
   margin-top: 30px;
 }
 
+#partners-title-ita {
+  color: rgb(250, 245, 236);
+  margin-top: 30px;
+}
+
 #partner1{
   width: 50%;
 }
@@ -620,7 +627,7 @@ margin-top: 50px;
   font-size: 30px;
   text-align: center;
 }
-#cucci-paragraph {
+.cucci-paragraph {
   line-height: 50px;
 }
 #cucci-container {

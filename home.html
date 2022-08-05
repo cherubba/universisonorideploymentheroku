@@ -45,8 +45,8 @@
 
   <hr class="solid">
   <div class="div-trans-button" data-aos="zoom-in">
-    <button type="button" language="english" class="active-button" >ENG</button>
-    <button type="button"  language="italian" >ITA</button>
+    <button type="button" language="english" class="active-button" id="button-eng">ENG</button>
+    <button type="button"  language="italian" id="button-ita">ITA</button>
 </div>
 
    <!-- ======= Carousel Section ======= -->
@@ -56,9 +56,16 @@
         <div class="col-lg-6" id="carousel-description">
           <h2 id="carousel-title">Ennio Morricone Universi Sonori</h2>
           <p id="carousel-paragraph" class="project-descr">is a musical project that offers a different and, in some ways, unexpected image of the Roman composer's production of music for the cinema.
-            Accustomed to the great sounds of orchestral ensembles, with which we retrace the history of 60 years of movie music, discovering the intimate and refined dimension of these arrangements for strings, solo violin and piano is a revelation, a window on a world of seductive atmospheres, a succession of counterpoints and alchemies that only Ennio Morricone's magic hand could build.
+            Accustomed to the great sounds of orchestral ensembles, with which we retrace the history of 60 years of movie music, discovering the intimate and refined dimension of these arrangements 
+            for strings, solo violin and piano is a revelation, a window on a world of seductive atmospheres, a succession of counterpoints and alchemies that only Ennio Morricone's magic hand could build.
             Produced for and with Marco Serino, a historic collaborator of the Maestro, the suites of many of the masterpieces of his 'applied' music production reveal, in a more manifest manner, close interconnections with his 'absolute' music.
             The details, which may escape when listening to a large symphony orchestra, here become precious elements with which Morricone enriches his compositions.</p>
+
+            <p id="carousel-paragraph-ita" class="project-descr" style="display: none;">è un progetto musicale che propone un’immagine diversa e, per certi versi, inaspettata della produzione di musica per il cinema del compositore romano. 
+              Abituati alle grandi sonorità delle formazioni orchestrali, con cui ripercorriamo la storia di 60 anni di movie music, scoprire la dimensione intima e raffinata di questi arrangiamenti per archi, violino 
+              solista e pianoforte è una rivelazione, una finestra su un mondo di atmosfere seduttive, un rincorrersi di contrappunti e di alchimie che solo la mano magica di Ennio Morricone sapeva costruire. Realizzate per e con Marco Serino, 
+              storico collaboratore del Maestro, le suite di molti dei capolavori della sua produzione di musica “applicata” rivelano, in maniera più manifesta, le strette interconnessioni con la sua musica “assoluta”. I dettagli, che possono 
+              sfuggire all’ascolto della grande orchestra sinfonica, diventano qui ricami con cui Morricone impreziosisce il tessuto armonico e melodico delle sue composizioni.</p>
         </div>
         <div class="col-lg-6" id="carousel-div">
         <div class="owl-carousel img-carousel">
@@ -174,12 +181,14 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2 id="repertoire-title" class="scores">ORIGINAL SCORES WRITTEN BY MAESTRO ENNIO MORRICONE</h2>
+          <h2 id="repertoire-title-ita" class="scores" style="display: none;">PARTITURE ORIGINALI SCRITTE DAL MAESTRO MORRICONE</h2>
         </div>
 
         <ul class="repertoire-list">
 
           <li data-aos="fade-up">
-            <a data-toggle="collapse" class="collapsed" href="#rep1" ><div id="suites">Suites for Solo Violin, String Orchestra and Piano</div><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <a id="a-suites" data-toggle="collapse" class="collapsed" href="#rep1" ><div id="suites">Suites for Solo Violin, String Orchestra and Piano</div><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <a id="a-suites-ita" style="display: none;" data-toggle="collapse" class="collapsed" href="#rep1" ><div id="suites-ita">Suite per violin solista, orchestra d’archi pianoforte</div><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="rep1" class="collapse" data-parent=".repertoire-list">
               <h3 class="repertoire-subtitle">Sergio Leone Suite </h3>
               <p>Once Upon A Time In America: Deborah's Theme <br>
@@ -222,7 +231,8 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2 id="partners-title">Our Partners</h2>
+          <h2  id="partners-title">Our Partners</h2>
+          <h2  id="partners-title-ita" style="display: none;">I nostri Partner</h2>
         </div>
 
         <div class="row justify-content-center align-items-center">
@@ -264,7 +274,7 @@
           </div>
           <div class="contact-email"data-aos="fade-up">
             <i class="icofont-email"></i>
-            <small>andreagenovese.management@gmail.com</small>
+            <small><a href='mailto:andreagenovese.management@gmail.com?subject=Richiesta Informazioni da "Universi Sonori"'>andreagenovese.management@gmail.com</a></small>
 
             </div>
           </div>
@@ -280,12 +290,12 @@
 
       <div class="container">
 
-        <div class="social-links">
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <!-- <div class="social-links">
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
           <!-- <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a> momentanemente indisponibile-->
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
+        </div> -->
 
       </div>
     </div>
