@@ -61,8 +61,12 @@ videoPlayer.addEventListener('click',()=>{
   }
 })
 
-//translate button
 
+
+
+
+
+//oggetto js per la traduzione
 const dataIta = {
   "italian" : {
     "description" : 
@@ -84,7 +88,7 @@ const dataIta = {
   }
 }
 
-
+//pulsanti traduzione
 const langEl = document.querySelector('.div-trans-button');
 const btn = document.querySelectorAll('button');
 const descr = document.querySelector('.project-descr');
